@@ -1,0 +1,77 @@
+{
+  "name": "@nikoletta-d1o/design-system",
+  "version": "0.1.0",
+  "description": "CloudTalk design system: UI primitives and design tokens",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikoletta-d1o/cloudtalk-design-system.git"
+  },
+  "homepage": "https://nikoletta-d1o.github.io/cloudtalk-design-system",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./tokens.css": "./dist/tokens.css",
+    "./theme.css": "./dist/theme.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "changeset": "changeset"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19",
+    "tailwindcss": "^4"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7",
+    "clsx": "^2.1",
+    "lucide-react": "^0.473",
+    "tailwind-merge": "^3.0"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.6.0",
+    "@changesets/cli": "^2.30.0",
+    "@storybook/addon-a11y": "8.6.17",
+    "@storybook/addon-essentials": "8.6.17",
+    "@storybook/blocks": "8.6.17",
+    "@storybook/react": "8.6.17",
+    "@storybook/react-vite": "8.6.17",
+    "@storybook/test": "8.6.17",
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "react": "^19",
+    "react-dom": "^19",
+    "storybook": "8.6.17",
+    "tailwindcss": "^4.2.1",
+    "tsup": "^8",
+    "typescript": "^5",
+    "vite": "^6.4.1"
+  }
+}

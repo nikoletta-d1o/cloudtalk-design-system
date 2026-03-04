@@ -1,0 +1,74 @@
+:root {
+  /* Fonts */
+  --font-sans: "Roboto", system-ui, sans-serif;
+  --font-mono: "Roboto Mono", monospace;
+
+  /* Brand Colors */
+  --color-primary-50: #f1f3ff;
+  --color-primary-100: #e0e4ff;
+  --color-primary-200: #c7cdfe;
+  --color-primary-400: #6b7cff;
+  --color-primary-500: #4d5eff;
+  --color-primary-600: #334fff;
+  --color-primary-700: #1a34e6;
+  --color-primary-800: #021480;
+  --color-primary-900: #010d5c;
+
+  /* Neutral Colors */
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f1f5f9;
+  --color-neutral-200: #e4eaf1;
+  --color-neutral-300: #cbd5e1;
+  --color-neutral-400: #94a3b8;
+  --color-neutral-500: #64748b;
+  --color-neutral-600: #475569;
+  --color-neutral-700: #334155;
+  --color-neutral-800: #1e293b;
+  --color-neutral-900: #0f172a;
+
+  /* Semantic Colors */
+  --color-success: #17b26a;
+  --color-success-light: #dcfce7;
+  --color-error: #f04438;
+  --color-error-light: #fef2f2;
+  --color-warning: #fac515;
+  --color-warning-light: #fefce8;
+  --color-teal: #139696;
+  --color-teal-light: #91e4e4;
+
+  /* Gray Cool */
+  --color-gray-cool-25: #fcfcfd;
+  --color-gray-cool-50: #f9f9fb;
+  --color-gray-cool-100: #eff1f5;
+  --color-gray-cool-200: #dcdfea;
+  --color-gray-cool-300: #b9c0d4;
+  --color-gray-cool-400: #7d89b0;
+  --color-gray-cool-500: #5d6b98;
+  --color-gray-cool-600: #4a5578;
+  --color-gray-cool-700: #404968;
+  --color-gray-cool-800: #30374f;
+  --color-gray-cool-900: #111322;
+  --color-gray-cool-950: #0e101b;
+
+  /* Brand Blue */
+  --color-brand-blue: #0527ff;
+  --color-brand-blue-50: #dde2ff;
+
+  /* Extended semantic shades */
+  --color-success-50: #ecfdf3;
+  --color-success-100: #dcfae6;
+  --color-success-600: #079455;
+  --color-warning-100: #fef0c7;
+
+  /* Shadows */
+  --shadow-card: 0px 1px 7px rgba(24, 34, 67, 0.03);
+  --shadow-card-hover: 0px 4px 12px rgba(24, 34, 67, 0.08);
+  --shadow-modal: 0px 12px 36px rgba(24, 34, 67, 0.08);
+
+  /* Spacing */
+  --spacing-sidebar: 244px;
+
+  /* Border Radius */
+  --radius-card: 8px;
+  --radius-bar: 5px;
+}
