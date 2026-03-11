@@ -23,6 +23,9 @@ export type { SentimentIconProps } from "./components/sentiment-icon";
 export { CallTypeIcon } from "./components/call-type-icon";
 export type { CallTypeIconProps } from "./components/call-type-icon";
 
+export { InlineNotification } from "./components/inline-notification";
+export type { InlineNotificationProps } from "./components/inline-notification";
+
 // Utility
 export { cn } from "./utils";
 
