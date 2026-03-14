@@ -26,8 +26,8 @@ export type { CallTypeIconProps } from "./components/call-type-icon";
 export { InlineNotification } from "./components/inline-notification";
 export type { InlineNotificationProps } from "./components/inline-notification";
 
-export { Tag, tagVariants } from "./components/tag";
-export type { TagProps } from "./components/tag";
+export { Tag, TagGroup, tagVariants } from "./components/tag";
+export type { TagProps, TagGroupProps } from "./components/tag";
 
 // Utility
 export { cn } from "./utils";
