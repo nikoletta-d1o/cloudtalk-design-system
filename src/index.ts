@@ -29,6 +29,9 @@ export type { InlineNotificationProps } from "./components/inline-notification";
 export { Tag, TagGroup, tagVariants } from "./components/tag";
 export type { TagProps, TagGroupProps } from "./components/tag";
 
+export { Toast, toastVariants } from "./components/toast";
+export type { ToastProps } from "./components/toast";
+
 // Utility
 export { cn } from "./utils";
 
