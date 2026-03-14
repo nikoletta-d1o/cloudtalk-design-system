@@ -60,6 +60,16 @@
   --color-success-600: #079455;
   --color-warning-100: #fef0c7;
 
+  /* Tag Colors */
+  --color-tag-grey: #dcdfea;
+  --color-tag-blue: #eeffff;
+  --color-tag-cyan: #ccfbef;
+  --color-tag-green: #f3ffde;
+  --color-tag-indigo: #f4f3ff;
+  --color-tag-brown: #fff1f3;
+  --color-tag-yellow: #fef7c3;
+  --color-tag-pink: #ffecfb;
+
   /* Shadows */
   --shadow-card: 0px 1px 7px rgba(24, 34, 67, 0.03);
   --shadow-card-hover: 0px 4px 12px rgba(24, 34, 67, 0.08);

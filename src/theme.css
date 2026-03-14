@@ -67,6 +67,16 @@
   /* Spacing */
   --spacing-sidebar: 244px;
 
+  /* Tag Colors (from Figma design system palettes) */
+  --color-tag-grey: #dcdfea;
+  --color-tag-blue: #eeffff;
+  --color-tag-cyan: #ccfbef;
+  --color-tag-green: #f3ffde;
+  --color-tag-indigo: #f4f3ff;
+  --color-tag-brown: #fff1f3;
+  --color-tag-yellow: #fef7c3;
+  --color-tag-pink: #ffecfb;
+
   /* Border Radius */
   --radius-card: 8px;
   --radius-bar: 5px;
