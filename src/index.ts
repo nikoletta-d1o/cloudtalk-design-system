@@ -32,6 +32,9 @@ export type { TagProps, TagGroupProps } from "./components/tag";
 export { Toast, toastVariants } from "./components/toast";
 export type { ToastProps } from "./components/toast";
 
+export { Tooltip, tooltipVariants } from "./components/tooltip";
+export type { TooltipProps, TooltipArrow } from "./components/tooltip";
+
 // Utility
 export { cn } from "./utils";
 
