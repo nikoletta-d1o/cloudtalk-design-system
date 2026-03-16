@@ -1,18 +1,19 @@
-name: Deploy Storybook
+name: Storybook PR Preview
+
 on:
-  push:
+  pull_request:
     branches: [main]
-  workflow_dispatch:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
-  group: pages
+  group: storybook-preview-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  preview:
     runs-on: ubuntu-latest
 
     steps:
@@ -32,10 +33,19 @@ jobs:
       - name: Build Storybook
         run: pnpm build-storybook
 
-      - name: Deploy to gh-pages
+      - name: Deploy preview to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./storybook-static
+          destination_dir: pr-${{ github.event.pull_request.number }}
           keep_files: true
-          exclude_assets: "pr-*"
+
+      - name: Comment PR with preview link
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          message: |
+            📖 **Storybook PR Preview**
+            https://nikoletta-d1o.github.io/cloudtalk-design-system/pr-${{ github.event.pull_request.number }}
+
+            _Updated at: ${{ github.event.pull_request.updated_at }}_
