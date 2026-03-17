@@ -41,6 +41,32 @@ export type {
 export { Tooltip, tooltipVariants } from "./components/tooltip";
 export type { TooltipProps, TooltipArrow } from "./components/tooltip";
 
+export { Sidebar } from "./components/sidebar";
+export type {
+  SidebarProps,
+  SidebarNavSection,
+  SidebarNavItem,
+  SidebarNavSubItem,
+  SidebarPopoverItem,
+} from "./components/sidebar";
+
+// Sidebar Icons (Figma-exact)
+export {
+  HomeSmileIcon,
+  PhoneCallIcon,
+  BarChartSquareIcon,
+  LinkExternalIcon,
+  UserIcon,
+  UsersIcon,
+  UserSquareIcon,
+  NumbersListIcon,
+  VoiceAgentIcon,
+  SpeedometerIcon,
+  SettingsIcon,
+  MessageQuestionIcon,
+} from "./components/sidebar-icons";
+export type { SidebarIcon } from "./components/sidebar-icons";
+
 // Utility
 export { cn } from "./utils";
 
