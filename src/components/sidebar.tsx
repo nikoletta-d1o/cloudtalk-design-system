@@ -500,7 +500,7 @@ export function Sidebar({
                 {/* Popover */}
                 {hasPopover && isPopoverOpen && (
                   <div
-                    className="absolute left-full bottom-0 ml-2 w-[212px] rounded-lg border border-gray-cool-200 bg-white p-2.5 shadow-[0px_13px_37px_0px_rgba(0,0,0,0.21)] z-50"
+                    className="absolute left-full bottom-full mb-2 w-[212px] rounded-lg border border-gray-cool-200 bg-white p-2.5 shadow-[0px_13px_37px_0px_rgba(0,0,0,0.21)] z-50"
                   >
                     <div className="flex flex-col gap-1">
                       {item.popoverItems!.map((popItem) => (
