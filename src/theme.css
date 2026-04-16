@@ -51,7 +51,14 @@
 
   /* Brand Blue */
   --color-brand-blue: #0527ff;
+  --color-brand-blue-25: #f1f3ff;
   --color-brand-blue-50: #dde2ff;
+  --color-brand-blue-100: #b1bcff;
+  --color-brand-blue-200: #8495ff;
+  --color-brand-blue-500: #0527ff;
+  --color-brand-blue-600: #0420d5;
+  --color-brand-blue-700: #031aaa;
+  --color-brand-blue-800: #021480;
 
   /* Extended semantic shades */
   --color-success-50: #ecfdf3;
