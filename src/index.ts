@@ -5,8 +5,8 @@ export type { CardProps } from "./components/card";
 export { Badge, badgeVariants } from "./components/badge";
 export type { BadgeProps } from "./components/badge";
 
-export { Button, buttonVariants } from "./components/button";
-export type { ButtonProps } from "./components/button";
+export { Button, SplitButton, buttonVariants } from "./components/button";
+export type { ButtonProps, SplitButtonProps } from "./components/button";
 
 export { TabBar } from "./components/tab-bar";
 export type { TabBarProps } from "./components/tab-bar";
